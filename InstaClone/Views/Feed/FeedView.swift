@@ -8,10 +8,20 @@
 import SwiftUI
 
 struct FeedView: View {
+    // MARK: - PROPERTIES
+    
+    // MARK: - FUNCTIONS
+    
+    // MARK: - BODY
     var body: some View {
         NavigationStack {
-            Text("Feed")
-        }
+            ScrollView(.vertical) {
+                ForEach(0..<5) { _ in
+                    FeedItemView()
+                        .padding(.bottom, 40)
+                }
+            }
+        } //: NAVIGATION STACK
     }
 }
 
@@ -22,4 +32,5 @@ struct FeedView: View {
                 Label("Feed", systemImage: "house")
             }
     }
+    .tint(.black)
 }

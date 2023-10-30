@@ -42,7 +42,7 @@ struct ContentView: View {
                 }
                 .tag(TabSelection.Profile)
         } //: TAB VIEW
-        //        .tint(.purple)
+        .tint(.black)
     }
 }
 

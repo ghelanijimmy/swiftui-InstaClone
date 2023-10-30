@@ -22,6 +22,7 @@
 		962894AD2AEFCDB800D111D7 /* ImageSelectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962894AC2AEFCDB800D111D7 /* ImageSelectorView.swift */; };
 		962894AF2AEFCDC500D111D7 /* NotificationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962894AE2AEFCDC500D111D7 /* NotificationsView.swift */; };
 		962894B12AEFCDCC00D111D7 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962894B02AEFCDCC00D111D7 /* ProfileView.swift */; };
+		962894B42AEFD74C00D111D7 /* FeedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962894B32AEFD74C00D111D7 /* FeedItemView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		962894AC2AEFCDB800D111D7 /* ImageSelectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectorView.swift; sourceTree = "<group>"; };
 		962894AE2AEFCDC500D111D7 /* NotificationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsView.swift; sourceTree = "<group>"; };
 		962894B02AEFCDCC00D111D7 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		962894B32AEFD74C00D111D7 /* FeedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				960C63572AEFC8E7008FCF2F /* ContentView.swift */,
-				962894A82AEFCDA100D111D7 /* FeedView.swift */,
+				962894B22AEFD6FA00D111D7 /* Feed */,
 				962894AA2AEFCDAB00D111D7 /* SearchView.swift */,
 				962894AC2AEFCDB800D111D7 /* ImageSelectorView.swift */,
 				962894AE2AEFCDC500D111D7 /* NotificationsView.swift */,
@@ -146,6 +148,15 @@
 			children = (
 			);
 			path = Utils;
+			sourceTree = "<group>";
+		};
+		962894B22AEFD6FA00D111D7 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				962894A82AEFCDA100D111D7 /* FeedView.swift */,
+				962894B32AEFD74C00D111D7 /* FeedItemView.swift */,
+			);
+			path = Feed;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,6 +236,7 @@
 				962894A12AEFCCF600D111D7 /* SearchController.swift in Sources */,
 				960C63562AEFC8E7008FCF2F /* InstaCloneApp.swift in Sources */,
 				962894AD2AEFCDB800D111D7 /* ImageSelectorView.swift in Sources */,
+				962894B42AEFD74C00D111D7 /* FeedItemView.swift in Sources */,
 				960C636A2AEFCA5A008FCF2F /* MainTabController.swift in Sources */,
 				962894A52AEFCD0A00D111D7 /* NotificationsController.swift in Sources */,
 				962894A32AEFCD0000D111D7 /* ImageSelectorController.swift in Sources */,

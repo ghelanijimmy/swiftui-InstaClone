@@ -20,6 +20,5 @@ enum TabSelection: String, Identifiable {
 }
 
 class MainTabController: ObservableObject {
-    
     @Published var selectedTab: TabSelection = .Feed
 }

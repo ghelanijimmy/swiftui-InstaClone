@@ -7,6 +7,6 @@
 
 import Foundation
 
-class FeedController {
-    
+class FeedController: ObservableObject {
+    @Published var feeds: [String] = []
 }
