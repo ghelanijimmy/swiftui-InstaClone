@@ -28,11 +28,35 @@ struct FeedItemView: View {
                 .frame(height: 350)
                 .background(.teal)
             HStack {
-                Image(systemName: "heart")
-                Image(systemName: "message")
-                Image(systemName: "paperplane")
+                Button {
+                    
+                } label: {
+                    Image(systemName: "heart")
+                }
+                .tint(.black)
+
+                Button {
+                    
+                } label: {
+                    Image(systemName: "message")
+                }
+                .tint(.black)
+                
+                Button {
+                    
+                } label: {
+                    Image(systemName: "paperplane")
+                }
+                .tint(.black)
+                
                 Spacer()
-                Image(systemName: "bookmark")
+                
+                Button {
+                    
+                } label: {
+                    Image(systemName: "bookmark")
+                }
+                .tint(.black)
             } //: HSTACK
             .padding([.horizontal, .top], 10)
             VStack(alignment: .leading) {
@@ -45,6 +69,10 @@ struct FeedItemView: View {
                 } //: HSTACK
                 .padding(.top, 2)
                 .font(.system(size: 12))
+                Text("2 days ago")
+                    .font(.system(size: 12))
+                    .padding(.top, 2)
+                    .foregroundStyle(.gray)
             } //: VSTACK
             .padding(.horizontal, 10)
             .padding(.top, 10)

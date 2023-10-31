@@ -18,7 +18,7 @@ struct FeedView: View {
             ScrollView(.vertical) {
                 ForEach(0..<5) { _ in
                     FeedItemView()
-                        .padding(.bottom, 40)
+                        .padding(.bottom, 10)
                 }
             }
         } //: NAVIGATION STACK
