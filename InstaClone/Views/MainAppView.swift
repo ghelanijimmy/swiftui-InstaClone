@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct MainAppView: View {
     // MARK: - PROPERTIES
     @StateObject var mainTab = MainTabController()
     
@@ -47,5 +47,5 @@ struct ContentView: View {
 }
 
 #Preview {
-    ContentView()
+    MainAppView()
 }
